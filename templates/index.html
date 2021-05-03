@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <title>{{head}}</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<style>
+    .heading{
+        font-family: Helvetica, sans-serif;
+        font-size: 54px;
+        color: #464975;
+    }
+h1
+{
+    color: whitesmoke;
+    font-family: Helvetica, sans-serif;
+    font-size: 54px;
+}
+
+table{
+    -moz-box-shadow: 0 0 2px 2px #888;
+    -webkit-box-shadow: 0 0 2px 2px#888;
+    box-shadow: 0 0 2px 2px #888;
+      border-collapse: collapse;
+     
+      
+}
+table, th, td {
+  border: solid black;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: x-large;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    
+}
+
+</style>
+        <link rel="stylesheet" href="../static/css/colors.css/">
+        
+    </head>
+
+    
+        <body>
+            <center>
+                <h1>Soil Condition Monitor</h1>
+                <h2>Time: {{time}}</h2>
+                <br/><br/>
+
+                
+                <table style="background-color: whitesmoke; outline: thin;"  class="styled-table">
+                <thead>
+                    <tr>
+                    <th>Moisture</th>
+                    <th>pH</th>
+                    </tr>
+                </thead>
+                    <tbody>
+                    <tr>
+                        <td>100</td>
+                        <td>10</td>
+                    </tr>
+                </tbody>
+                </table>
+
+                <br/>
+                <br/>
+
+
+                <div class="container">
+                    <div class="row">
+                      <div class="col-sm">
+                <button type="button" class="btn btn-primary btn-lg">Left</button>
+                <button type="button" class="btn btn-secondary btn-lg">Front</button>
+                <button type="button" class="btn btn-primary btn-lg">Right</button>
+               
+            </center>
+        </body>
+</html>
