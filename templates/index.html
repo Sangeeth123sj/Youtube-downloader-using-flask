@@ -9,7 +9,7 @@
 
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
     .heading{
         font-family: Helvetica, sans-serif;
@@ -21,6 +21,12 @@ h1
     color: whitesmoke;
     font-family: Helvetica, sans-serif;
     font-size: 54px;
+}
+
+body
+{
+background:blueviolet;
+
 }
 
 table{
@@ -53,37 +59,19 @@ table, th, td {
     
         <body>
             <center>
-                <h1>Soil Condition Monitor</h1>
-                <h2>Time: {{time}}</h2>
+                <h1>You Down</h1>
+                <h4>Youtube downloader</h4>
+                <h3>Time: {{time}}</h3>
                 <br/><br/>
-
-                
-                <table style="background-color: whitesmoke; outline: thin;"  class="styled-table">
-                <thead>
-                    <tr>
-                    <th>Moisture</th>
-                    <th>pH</th>
-                    </tr>
-                </thead>
-                    <tbody>
-                    <tr>
-                        <td>100</td>
-                        <td>10</td>
-                    </tr>
-                </tbody>
-                </table>
-
+                <div class="form-group">
+                <label>Paste link here</label>
                 <br/>
+                <form action="/" method="POST">
+                <input type="text" name="link" class="form-control" style="width:300px;" >
                 <br/>
-
-
-                <div class="container">
-                    <div class="row">
-                      <div class="col-sm">
-                <button type="button" class="btn btn-primary btn-lg">Left</button>
-                <button type="button" class="btn btn-secondary btn-lg">Front</button>
-                <button type="button" class="btn btn-primary btn-lg">Right</button>
-               
+                <button type="submit" class="btn btn-primary btn-lg">Download</button>
+            </form>
+                </div>
             </center>
         </body>
 </html>
