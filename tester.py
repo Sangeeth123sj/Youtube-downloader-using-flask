@@ -12,7 +12,7 @@ def index():
         #YouTube(link).streams[0].download('Desktop/')
         yt = YouTube(link)
         print("Video: "+yt.title)
-        yt.streams.first().download('/home/sangeeth/Desktop')
+        yt.streams.first().download('Media/')
         download_status = {
         'video_title': yt.title,
         'status': "completed"
