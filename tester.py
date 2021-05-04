@@ -9,7 +9,7 @@ def index():
     if request.method == "POST":
         link = request.form['link']
         print("Link is "+link)
-        #YouTube(link).streams.first().download('Desktop/')
+        #YouTube(link).streams[0].download('Desktop/')
         yt = YouTube(link)
         print("Video: "+yt.title)
         yt.streams.first().download('/home/sangeeth/Desktop')
