@@ -29,5 +29,5 @@ def index():
 def downloader():
     return render_template('download.html')
 
-if __name__ == '__main__':
-    app.run(debug=True, port=80, host='0.0.0.0')
+#if __name__ == '__main__':
+#    app.run(debug=True, port=80, host='0.0.0.0')
