@@ -9,7 +9,7 @@ lazy-object-proxy==1.6.0
 MarkupSafe==1.1.1
 mccabe==0.6.1
 pylint==2.8.2
-pytube==10.7.2
+pytube3==9.6.4
 toml==0.10.2
 Werkzeug==1.0.1
 wrapt==1.12.1
